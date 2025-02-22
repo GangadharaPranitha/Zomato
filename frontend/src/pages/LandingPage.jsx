@@ -1,4 +1,3 @@
-
 import TopBar from '../components/TopBar';
 import ItemsDisplay from '../components/ItemsDisplay';
 import Chains from '../components/Chains';
