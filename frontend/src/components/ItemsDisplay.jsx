@@ -1,9 +1,8 @@
 import { useState } from 'react';
-import { itemData } from '../data'; // Ensure this is correctly imported
+import { itemData } from '../data'; 
 
 const ItemsDisplay = () => {
-    // Check if itemData is an array before setting state
-    const [displayItem, setdisplayItem] = useState(Array.isArray(itemData) ? itemData : []);
+     const [displayItem, setdisplayItem] = useState(Array.isArray(itemData) ? itemData : []);
 
     return (
         <div className="itemSection">
